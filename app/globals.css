@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer components{
   .headerNavbar{
     @apply hover:text-[#d96B14] duration-500 cursor-pointer
