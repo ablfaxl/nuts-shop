@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { GiTrophyCup } from 'react-icons/gi';
 import aboutNutsImg from '/public/img/healthy-foods-concept-white-background.png';
-
+// change position of icons
 const AboutNuts = () => {
   return (
     <div className="h-[447px]">
@@ -10,10 +10,7 @@ const AboutNuts = () => {
         <div className="absolute top-0 left-0">
           <div className="p-6 pb-4">
             <div className="rounded-full p-4">
-            <GiTrophyCup
-              size={30}
-              className="text-[#D96B14]"
-            />
+              <GiTrophyCup size={30} className="text-[#D96B14]" />
             </div>
             <h1 className="text-right font-bold py-2 px-2">
               We Ensure Great Quality

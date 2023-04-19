@@ -22,7 +22,7 @@ const HomePage = () => {
       <div className="w-full  flex items-center justify-center mt-[160px]">
         <AboutNuts />
       </div>
-      <div className="w-full  flex items-center justify-center mt-[160px]">
+      <div className="w-full mt-[160px]">
         <Recipies />
       </div>
       <div className="w-full flex items-center justify-center mt-[200px]">
