@@ -68,9 +68,9 @@ export default function TemporaryDrawer({ flag, closeflag }: Prop) {
   );
   return (
     <div>
-      {/* <Drawer anchor={"right"} open={flag} onClose={() => closeflag(!flag)}>
+      <Drawer anchor={"right"} open={flag} onClose={() => closeflag(!flag)}>
         {list()}
-      </Drawer> */}
+      </Drawer>
     </div>
   );
 }
