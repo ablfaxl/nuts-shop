@@ -8,6 +8,7 @@ import { BiShoppingBag } from "react-icons/bi";
 import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
 import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
 import TemporaryDrawer from "./drawerNavbar";
+import LoginUser from "./LoginUser";
 const Search = styled(Box)(({ theme }) => ({
   position: "relative",
   borderRadius: theme.shape.borderRadius,
@@ -131,7 +132,7 @@ const Navbar = () => {
   };
   return (
     <nav className="h-[52px] w-full flex justify-center items-center">
-      <TemporaryDrawer flag={flagDrawer} closeflag={setFlagDrawer} />
+      <LoginUser flag={flagDrawer} closeflag={setFlagDrawer} />
       <Box className=" h-[100%] w-[85%] flex items-center border-b-[1px] border-[#D96B14] ">
         <Box className=" h-[28px] w-[28px] ml-2">
           <img src="/icons/Group.png" />

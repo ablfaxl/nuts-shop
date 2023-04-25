@@ -46,9 +46,9 @@ const BeastSeller = () => {
             return (
               <div
                 style={{ fontFamily: "Poppins" }}
-                className="h-[338px] w-[293px] relative transition-all duration-500 rounded-[16px] flex group justify-center"
+                className="h-[338px] hover:overflow-visible w-[293px] overflow-hidden relative transition-all duration-500 rounded-[16px] flex group justify-center"
               >
-                <button className="absolute hidden duration-300 z-10 group-hover:inline w-[263px] group-hover:mt-[350px] bg-[#D96B14] hover:bg-[#ce6412]  text-white font-bold py-2 px-4 rounded ">
+                <button className="absolute  duration-500 opacity-40 group-hover:opacity-100 z-10 translate-y-[-50px] w-[263px] group-hover:translate-y-[350px] bg-[#D96B14] hover:bg-[#ce6412]  text-white font-bold py-2 px-4 rounded ">
                   View
                 </button>
                 <div>
