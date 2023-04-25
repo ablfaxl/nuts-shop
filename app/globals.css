@@ -1,48 +1,44 @@
+/* @import url(//db.onlinewebfonts.com/c/cae518d8b468a04e65f5987bef0199b2?family=mellony+dry+brush);
+@font-face {
+  font-family: "mellony dry brush";
+  src: url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.eot");
+  src: url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.svg#mellony dry brush")
+      format("svg");
+} */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-@layer components{
-  .headerNavbar{
-    @apply hover:text-[#d96B14] duration-500 cursor-pointer
+@layer components {
+  .headerNavbar {
+    @apply hover:text-[#d96B14] duration-500 cursor-pointer;
   }
-  .ProductLi{
-    @apply hover:text-[#A3500F] hover:text-[24px] duration-500 cursor-pointer hover:font-[900] font-[400] text-[20px]
+  .ProductLi {
+    @apply hover:text-[#A3500F] hover:text-[24px] duration-500 cursor-pointer hover:font-[900] font-[400] text-[20px];
   }
 }
 
-@font-face {
-  font-family: "Inter";
-  font-weight: normal;  
-  src: local("Poppins-Black"),
-  url("/public/Font/Inter/Inter-VariableFont_slnt\,wght.ttf") format("truetype") ;
-}
-@font-face {
-  font-family: "mellony";
-  font-weight: normal;  
-  src: local("mellony_dry_brush"),
-  url("/public/Font/mellony_dry_brush/mellony_dry_brush.ttf") format("truetype") ;
-}
-@font-face {
-  font-family: "Poppins";
-  font-weight: normal;  
-  src: local("Poppins-Regular"),
-  url("/public/Font/Poppins/Poppins-Regular.ttf") format("truetype") ;
 
-}
+
 * {
   font-family: inherit;
 }
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont,Inter ,'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont,Inter ,'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
