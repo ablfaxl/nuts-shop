@@ -11,7 +11,7 @@ type Prop = {
 export default function TemporaryDrawer({ flag, closeflag }: Prop) {
   const list = () => (
     <>
-      <Box className={"h-[100vh] w-[80vw] bg-white"}>
+      <Box className={"h-[100vh] w-[522px] bg-white"}>
         <Box
           onClick={() => closeflag(!flag)}
           className={
