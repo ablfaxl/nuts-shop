@@ -27,8 +27,7 @@ const HomePage = () => {
         <Recipies />
       </div>
       <div className="w-full flex items-center justify-center mt-[200px]">
-        <SpecialSaleSlideShow /> // sajjad ****** sileder ke hover mikoni bozorg
-        mishe
+        <SpecialSaleSlideShow />
       </div>
       <div className="w-full flex items-center justify-center mt-[200px]">
         <OurServices /> 
