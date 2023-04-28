@@ -1,5 +1,5 @@
 const { Translate } = require("@mui/icons-material");
-
+const { fontFamily } = require('tailwindcss/defaultTheme');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
