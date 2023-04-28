@@ -1,18 +1,3 @@
-/* @import url(//db.onlinewebfonts.com/c/cae518d8b468a04e65f5987bef0199b2?family=mellony+dry+brush);
-@font-face {
-  font-family: "mellony dry brush";
-  src: url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.eot");
-  src: url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/cae518d8b468a04e65f5987bef0199b2.svg#mellony dry brush")
-      format("svg");
-} */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -39,6 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

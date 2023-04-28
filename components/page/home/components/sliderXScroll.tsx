@@ -38,8 +38,8 @@ const SliderXScroll = () => {
         return (
           <SwiperSlide
             onMouseEnter={() => effectBox(i)}
-            onMouseLeave={() => unEffectBox( i)}
-            className=" active:cursor-grabbing rounded-[30px] cursor-grab  h-40 w-[40%] inline-block overflow-hidden "
+            onMouseLeave={() => unEffectBox(i)}
+            className=" active:cursor-grabbing rounded-[30px] cursor-grab  h-[40] w-[100%] inline-block overflow-hidden "
           >
             <div className="flex justify-center items-center duration-500 transition-all group">
                 <div className="bg-orange-500 z-50 opacity-0 group-hover:opacity-30 w-0 h-0 rounded-[30px] group-hover:h-full group-hover:w-full absolute transition-all duration-500"></div>
