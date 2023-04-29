@@ -6,6 +6,7 @@ import BeastSeller from "./components/beastSeller";
 import AboutNuts from "./components/aboutNuts";
 import Recipies from "@/components/Recipies";
 import SpecialSaleSlideShow from "@/components/SpecialSaleSlideShow";
+import OurServices from "./components/OurServices";
 const HomePage = () => {
     return (
         <>
@@ -29,6 +30,7 @@ const HomePage = () => {
                 <SpecialSaleSlideShow />
             </div>
             <div className="w-full flex items-center justify-center mt-[400px]">
+                <OurServices/>
             </div>
         </>
     );
