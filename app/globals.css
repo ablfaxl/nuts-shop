@@ -2,43 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@layer components{
-  .headerNavbar{
-    @apply hover:text-[#d96B14] duration-500 cursor-pointer
+@layer components {
+  .headerNavbar {
+    @apply hover:text-[#d96B14] duration-500 cursor-pointer;
   }
-  .ProductLi{
-    @apply hover:text-[#A3500F] hover:text-[24px] duration-500 cursor-pointer hover:font-[900] font-[400] text-[20px]
+  .ProductLi {
+    @apply hover:text-[#A3500F] hover:text-[24px] duration-500 cursor-pointer hover:font-[900] font-[400] text-[20px];
   }
 }
 
-@font-face {
-  font-family: "Inter";
-  font-weight: normal;  
-  src: local("Poppins-Black"),
-  url("/public/Font/Inter/Inter-VariableFont_slnt\,wght.ttf") format("truetype") ;
-}
-@font-face {
-  font-family: "mellony";
-  font-weight: normal;  
-  src: local("mellony_dry_brush"),
-  url("/public/Font/mellony_dry_brush/mellony_dry_brush.ttf") format("truetype") ;
-}
-@font-face {
-  font-family: "Poppins";
-  font-weight: normal;  
-  src: local("Poppins-Regular"),
-  url("/public/Font/Poppins/Poppins-Regular.ttf") format("truetype") ;
 
-}
+
 * {
   font-family: inherit;
 }
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont,Inter ,'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont,Inter ,'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

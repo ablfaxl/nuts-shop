@@ -46,9 +46,6 @@ export default function Slider() {
             transition: "0.5s",
             color: "#D96B14",
             backgroundColor: "#D96B14",
-            width: 20,
-            height: 10,
-            borderRadius: "30px",
           },
         }}
       >
